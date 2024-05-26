@@ -16,7 +16,7 @@ class HomeController extends Controller
     }
 
     public function create(){
-        $tung = 'hello anh Hung dep trai';
+        $tung = 'hello world';
         return view('layouts.abc',compact('tung'));
     }
     public function store(Request $request){
